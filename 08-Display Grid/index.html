@@ -9,23 +9,23 @@
     /* My colours for white: #f0d9b5, black: #b58863 */
     .container {
       display: grid;
+      grid-template-rows: 8fr;
+      grid-template-columns: repeat(8, 1fr);
       width: 400px;
       height: 400px;
-      grid-template-columns: repeat(8, 1fr);
-      grid-gap: 10px;
     }
-    
-    .square {
-      background-color: #fff;
-      border: 2px solid #ccc;
-      font-size: 75px;
-      text-align: center;
-      line-height: 100px;
-      color: #000;
+
+    .white {
+      background-color: white;
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
     }
-    
+
     .black {
-      color: #000000;
+      background-color: #000;
+      width: 100px;
+      height: 100px;
     }
   </style>
 </head>
